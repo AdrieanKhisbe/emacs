@@ -25,11 +25,16 @@ otherwise leave it unmarked.
 
 * Installation Changes in Emacs 25.1
 
-+++
+---
 ** Building Emacs now requires C99 or later.
 
-+++
+Minimal C language level has been raised from C89 to C99.
+
+---
 ** Building Emacs now requires GNU make, version 3.81 or later.
+
+From now on, GNU Make >= 3.81 is required to build Emacs.
+This was made to fix some issues on some platform.
 
 +++
 ** New configure option --with-cairo.
